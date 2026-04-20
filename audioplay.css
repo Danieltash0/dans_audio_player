@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #f0f0f0;
+  background: lightskyblue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +15,8 @@ body {
 }
 
 .player {
-  background: #ffffff;
-  border: 1px solid #ddd;
+  background: lightcyan;
+  border: 1px solid black;
   border-radius: 8px;
   padding: 1.5rem;
   width: 100%;
@@ -30,10 +30,9 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
-  color: #222;
+  color: black;
 }
 
-/* File row */
 .file-row {
   display: flex;
   align-items: center;
@@ -42,7 +41,7 @@ body {
 }
 
 .file-btn {
-  background: #222;
+  background: black;
   color: #fff;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
@@ -52,7 +51,8 @@ body {
 }
 
 .file-btn:hover {
-  background: #444;
+  background: darkblue;
+  color: white;
 }
 
 #file-input {
@@ -61,23 +61,23 @@ body {
 
 #track-name {
   font-size: 0.85rem;
-  color: #555;
+  color: black;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 220px;
 }
 
-/* Visualiser canvas */
+
 #visualiser {
   width: 100%;
   height: 80px;
-  background: #111;
+  background: lightblue;
   border-radius: 4px;
   display: block;
 }
 
-/* Progress / time row */
+
 .time-row {
   display: flex;
   align-items: center;
@@ -86,7 +86,7 @@ body {
 
 .time-row span {
   font-size: 0.8rem;
-  color: #555;
+  color: black;
   white-space: nowrap;
 }
 
@@ -94,7 +94,6 @@ body {
   flex: 1;
 }
 
-/* Transport buttons */
 .controls {
   display: flex;
   justify-content: center;
@@ -112,16 +111,17 @@ button {
 }
 
 button:hover {
-  background: #e0e0e0;
+  background: darkblue;
+  color: white;
 }
 
 button.active {
-  background: #222;
-  color: #fff;
-  border-color: #222;
+  background: black;
+  color: white;
+  border-color: white;
 }
 
-/* Volume / speed rows */
+
 .slider-row {
   display: flex;
   align-items: center;
@@ -146,7 +146,7 @@ button.active {
   text-align: right;
 }
 
-/* Range input base styling */
+
 input[type="range"] {
   -webkit-appearance: none;
   height: 4px;
